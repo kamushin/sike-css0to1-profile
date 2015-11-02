@@ -74,6 +74,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .info-section ul li{
   float: left;
+}
+.whatido ul li{
   padding-top: 110px;
 }
 .info-section header {
@@ -97,23 +99,41 @@ h1, h2, h3, h4, h5, h6 {
 .info-section__description {
   font-style: italic;
 }
-.whatido__skill--code {
-  background-image: url(../img/skill-code.png);
+.whatido__skill {
   background-repeat: no-repeat;
   background-position: center top;
   width: 33%;
+}
+.whatido__skill--code {
+  background-image: url(../img/skill-code.png);
 }
 
 .whatido__skill--design {
   background-image: url(../img/skill-design.png);
-  background-repeat: no-repeat;
-  background-position: center top;
-  width: 33%;
 }
 
 .whatido__skill--product {
   background-image: url(../img/skill-product.png);
-  background-repeat: no-repeat;
-  background-position: center top;
-  width: 33%;
+}
+.education-experience__list img{
+  float: left; 
+  width: 180px;
+  padding-right: 90px;
+}
+.education-experience header{
+  text-align: center;
+}
+.education-experience__list li{
+  padding-top: 40px;
+}
+.education-experience__list div{
+  overflow: hidden;
+}
+.photos__list li{
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.photos__list li img{
+  width: 100%;
 }
