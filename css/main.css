@@ -63,4 +63,57 @@ h1, h2, h3, h4, h5, h6 {
 .main-nav ul li a:hover {
   text-decoration: underline;
 }
+.info-section {
+  padding: 30px 60px;
+  background-color: #fff;
+}
+.info-section ul {
+  list-style: none;
+  overflow: hidden; /*让容器可以包括子元素*/
+}
 
+.info-section ul li{
+  float: left;
+  padding-top: 110px;
+}
+.info-section header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.info-section header h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.info-section header h2:after{
+  border-bottom: 3px solid black;
+  content: "";
+  display: table;
+  margin: 10px auto;
+  width: 90px;
+}
+
+.info-section__description {
+  font-style: italic;
+}
+.whatido__skill--code {
+  background-image: url(../img/skill-code.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 33%;
+}
+
+.whatido__skill--design {
+  background-image: url(../img/skill-design.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 33%;
+}
+
+.whatido__skill--product {
+  background-image: url(../img/skill-product.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 33%;
+}
